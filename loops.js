@@ -4,7 +4,7 @@ function forLoop(array) {
     var newStr =`"I am ${i} strange loop${i === 0 ? '' : 's'}."`;
     array.push(newStr); // push the new string to the array 25 times
   }
-  return array;  
+  return array[0];  
 }
 
 function whileLoop(n) {
