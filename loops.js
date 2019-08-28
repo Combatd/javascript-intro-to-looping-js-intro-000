@@ -1,8 +1,8 @@
 function forLoop(array) {
   
-  for (let i = 0; i < array.length; i++) {
-    var ele = array[i];
-    ele += `"I am ${i} strange loop${i === 0 ? '' : 's'}."`;
+  for (let i = 0; i < 25; i++) {
+    var newStr =`"I am ${i} strange loop${i === 0 ? '' : 's'}."`;
+    array.push(newStr); // push the new string to the array 25 times
   }
     
 }
