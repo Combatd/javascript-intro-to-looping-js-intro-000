@@ -2,11 +2,7 @@ function forLoop(array) {
   
   for (let i = 0; i < 25; i++) {
     var ele = array[i];
-    if (i == 1) { 
-        ele = `I am 1 strange loop.`;
-      } else {
-        ele = `I am ${i} strange loop.`;
-      }
+    (i == 1) 
   }
     
   return array;
