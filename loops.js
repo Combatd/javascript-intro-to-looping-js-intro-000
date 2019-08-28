@@ -1,6 +1,6 @@
 function forLoop(array) {
   
-  for (let i = 1; i < 25; i++) {
+  for (let i = 0; i < array.length; i++) {
     var ele = array[i];
     ele += `"I am ${i} strange loop${i === 0 ? '' : 's'}."`;
   }
