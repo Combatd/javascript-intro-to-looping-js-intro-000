@@ -29,4 +29,4 @@ function incrementVariable() {
 function doWhileLoop(num) {
  i = 0;
  do {incrementVariable()} 
-} while ()
+} while (incrementVariable() < num)
