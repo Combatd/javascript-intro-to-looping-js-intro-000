@@ -1,7 +1,7 @@
 function forLoop(array) {
   
   for (let i = 0; i < 25; i++) {
-    var newStr =`"I am ${i} strange loop${i === 0 ? '' : 's'}."`;
+    var newStr =`I am ${i} strange loop${i === 0 ? '' : 's'}.`;
     array.push(newStr); // push the new string to the array 25 times
   }
   return array;  
