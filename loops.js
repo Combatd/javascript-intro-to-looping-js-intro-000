@@ -20,9 +20,13 @@ function whileLoop(n) {
   return "done";
 }
 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+ 
+ 
 function doWhileLoop(num) {
-  do {
-    
-  } while ()
-  
-}  
+ i = 0;
+ do {incrementVariable()} 
+} while ()
